@@ -71,5 +71,8 @@
   },
   "peerDependencies": {
     "postcss": "8.3.0"
-  }
+  },
+  "engines": {
+  "node": "16"
+}
 }
