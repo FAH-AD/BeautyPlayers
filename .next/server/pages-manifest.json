@@ -1,6 +1,17 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/404": "pages/404.js",
   "/_document": "pages/_document.js",
-  "/[locale]": "pages/[locale].js"
+  "/detail-movie": "pages/detail-movie.js",
+  "/blank-page": "pages/blank-page.js",
+  "/": "pages/index.js",
+  "/register": "pages/register.js",
+  "/login": "pages/login.js",
+  "/[locale]/404": "pages/[locale]/404.js",
+  "/[locale]/detail-movie": "pages/[locale]/detail-movie.js",
+  "/[locale]": "pages/[locale].js",
+  "/[locale]/blank-page": "pages/[locale]/blank-page.js",
+  "/[locale]/register": "pages/[locale]/register.js",
+  "/[locale]/login": "pages/[locale]/login.js"
 }
