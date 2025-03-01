@@ -14,10 +14,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3010",
-    "build": "next build",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "export": "next export",
-    "start": "next start -p 3010",
     "now-build": "next build && next export -o dist"
   },
   "dependencies": {
